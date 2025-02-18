@@ -103,3 +103,59 @@
 // const array1 = ["apple", "banana", "cherry", "grape"];
 // const array2 = ["banana", "pear", "apple", "melon"];
 // findCommonStrings(array1, array2);
+
+//Misol 1
+// let size = prompt("Size kiriitng:")
+// let usersList = []
+// function collectUsers(){
+//     for(let i = 0; i < size; i++){
+//         let user= prompt("Ism kiriting;")
+//         let data = {
+//             id: 1,
+//             name: user
+//         }
+//         usersList.push(data)
+//     }
+// }
+// collectUsers()
+// document.write(usersList)
+
+//Misol 2
+// function getUniqueArray(arr) {
+//     return [...new Set(arr)];
+// }
+// let arr = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5];
+// let uniqueArr = getUniqueArray(arr);
+// document.write(uniqueArr);
+
+//Misol 3
+// let numbers = [88, 75, 342, 21, 45, 67];
+// let input = parseInt(prompt('Sonni kiriting:'));
+// let index = numbers.indexOf(input);
+// if (index !== -1) {
+//     document.write(`Sonning indeksi: ${index}`);
+// } else {
+//     document.write('Bunday son mavjud emas');
+// }
+
+//Misol 4
+// let arr = [88, 75, 342, 21, 45, 67];
+// let num = +prompt("Son kiriting:");
+// let index = arr.indexOf(num);
+// if (index !== -1) {
+//     arr.splice(index, 1);
+//     document.write("Yangi array:", arr);
+// } else {
+//     document.write("Bu son arrayda yo'q:", num);
+// }
+
+//Misol 5
+// function maxTwoSum(arr) {
+//     if (arr.length < 2) {
+//         return "Massivda kamida 2 ta element bo'lishi kerak.";
+//     }
+//     arr.sort((a, b) => b - a);
+//     return arr[0] + arr[1];
+// }
+// let arr = [1, 2, 3, 4, 5];
+// document.write(maxTwoSum(arr)); 
